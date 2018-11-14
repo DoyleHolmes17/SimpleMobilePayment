@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="dark_blue">#07386D</color>
+    <color name="orange">#F7C21D</color>
+    <color name="grey">#D1D1D1</color>
+    <color name="medium_grey">#808080</color>
+    <color name="dark_grey">#1D1D1D</color>
+    <color name="red">#ee1111</color>
+    <color name="light_red">#ffcccc</color>
+    <color name="light_green">#99b433</color>
+    <color name="green">#00a300</color>
+    <color name="dark_green">#1e7145</color>
+    <color name="magenta">#ff0097</color>
+    <color name="light_purple">#9f00a7</color>
+    <color name="purple">#7e3878</color>
+    <color name="dark_purple">#603cba</color>
+    <color name="darken">#1d1d1d</color>
+    <color name="teal">#00aba9</color>
+    <color name="light_blue">#eff4ff</color>
+    <color name="blue">#2d89ef</color>
+    <color name="yellow">#ffc40d</color>
+    <color name="dark_orange">#da532c</color>
+    <color name="dark_red">#b91d47</color>
+    <color name="white">#ffffff</color>
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color> <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color> <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color> <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="black">#000000</color>
+    <color name="train_selected">#FFF7C21D</color>
+    <color name="train_available">#FF41A7C5</color>
+    <color name="train_unavailable">#FFC05342</color>
+    <color name="train_separator">#ffffffff</color>
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="navigationBarColor">#000000</color>
+</resources>

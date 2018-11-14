@@ -1,0 +1,84 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="CustomProgressBarHorizontal" parent="android:Widget.ProgressBar.Horizontal">
+        <item name="android:minHeight">10dp</item>
+        <item name="android:maxHeight">50dp</item>
+    </style>
+
+    <style name="mytoast">
+        <item name="textBold">true</item>
+        <item name="textColor">#fff</item>
+        <!--<item name="font">@font/retrofont</item>-->
+        <item name="textSize">14sp</item>
+        <item name="colorBackground">@color/green</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@color/black</item>
+        <!--<item name="iconStart">@drawable/aino</item>-->
+        <!--<item name="iconEnd">@drawable/aino</item>-->
+        <item name="length">LONG</item>
+        LONG or SHORT
+        <item name="gravity">center</item>
+        top or center
+        <item name="radius">5dp</item>
+    </style>
+
+    <style name="gagaltoast">
+        <item name="textBold">true</item>
+        <item name="textColor">#fff</item>
+        <!--<item name="font">@font/retrofont</item>-->
+        <item name="textSize">14sp</item>
+        <item name="colorBackground">@color/red</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">1dp</item>
+        <!--<item name="strokeColor">@color/black</item>-->
+        <!--<item name="iconStart">@drawable/aino</item>-->
+        <!--<item name="iconEnd">@drawable/aino</item>-->
+        <item name="length">LONG</item>
+        LONG or SHORT
+        <item name="gravity">center</item>
+        top or center
+        <item name="radius">5dp</item>
+    </style>
+
+    <style name="hitamtoast">
+        <item name="textBold">true</item>
+        <item name="textColor">#fff</item>
+        <!--<item name="font">@font/retrofont</item>-->
+        <item name="textSize">14sp</item>
+        <item name="colorBackground">@color/black</item>
+        <item name="solidBackground">true</item>
+        <item name="strokeWidth">1dp</item>
+        <!--<item name="strokeColor">@color/black</item>-->
+        <!--<item name="iconStart">@drawable/aino</item>-->
+        <!--<item name="iconEnd">@drawable/aino</item>-->
+        <item name="length">LONG</item>
+        LONG or SHORT
+        <item name="gravity">center</item>
+        top or center
+        <item name="radius">5dp</item>
+    </style>
+
+    <style name="buttonText">
+        <item name="android:layout_marginBottom">15dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/shape_button</item>
+    </style>
+
+    <style name="layoutstle">
+        <item name="android:background">@drawable/shape_lay</item>
+    </style>
+
+    <style name="layoutborder">
+        <item name="android:background">@drawable/shape_border</item>
+    </style>
+
+</resources>

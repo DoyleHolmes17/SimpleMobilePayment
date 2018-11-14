@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/gambaratas"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/aino"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RelativeLayout
+        style="@style/layoutstle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gambaratas">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/paymentnfc"
+            android:layout_margin="8dp"
+            style="@style/layoutborder"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="80dp"
+                android:id="@+id/paymentnfcbtn"
+                android:layout_height="80dp"
+                android:background="@drawable/paymentmain" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/payment"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="8dp"
+            android:visibility="gone"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/checkbalance"
+            style="@style/layoutborder"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/check_balance" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/check_balance"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/settingbtn"
+            android:layout_margin="8dp"
+            android:layout_below="@id/logoutt"
+            style="@style/layoutborder"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="80dp"
+                android:id="@+id/settingbtn1"
+                android:layout_height="80dp"
+                android:background="@drawable/setting" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/action_settings"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/adduserbtn"
+            android:layout_margin="8dp"
+            android:gravity="center"
+            android:layout_below="@id/logoutt"
+            style="@style/layoutborder"
+            android:layout_centerHorizontal="true"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="80dp"
+                android:id="@+id/adduserbtn1"
+                android:layout_height="80dp"
+                android:background="@drawable/settings" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:text="@string/user_management"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/logoutt"
+            android:layout_margin="8dp"
+            android:layout_alignParentRight="true"
+            style="@style/layoutborder"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="80dp"
+                android:id="@+id/logoutbtn"
+                android:layout_height="80dp"
+                android:background="@drawable/logout" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/logout"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/paymentscanqr"
+            android:layout_margin="8dp"
+            android:layout_centerHorizontal="true"
+            style="@style/layoutborder"
+            android:gravity="center"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="80dp"
+                android:id="@+id/scanqrbtn"
+                android:layout_height="80dp"
+                android:background="@drawable/qr1" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:textColor="@color/black"
+                android:text="@string/scan_qr"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_margin="8dp"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:id="@+id/generateqr"-->
+            <!--style="@style/layoutborder"-->
+            <!--android:layout_below="@+id/checkbalance"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<Button-->
+                <!--android:layout_width="80dp"-->
+                <!--android:layout_height="80dp"-->
+                <!--android:id="@+id/generateqrbtn"-->
+                <!--android:background="@drawable/qr2" />-->
+
+            <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:textColor="@color/black"-->
+                <!--android:text="@string/generate_qr"-->
+                <!--android:layout_height="wrap_content" />-->
+        <!--</LinearLayout>-->
+    </RelativeLayout>
+
+    <RelativeLayout
+        style="@style/layoutstle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:visibility="gone"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gambaratas">
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
